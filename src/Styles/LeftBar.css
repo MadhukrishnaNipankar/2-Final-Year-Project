@@ -1,0 +1,17 @@
+.custom-width{
+    width: 270px;
+}
+
+.leftbar-option{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius:6px ;
+}
+
+.leftbar-option:hover{
+    background-color: rgb(198, 227, 251);
+    cursor: pointer;
+}

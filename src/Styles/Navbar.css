@@ -1,0 +1,11 @@
+.navbar-custom{
+background-color: white;
+}
+
+.form-control-customize{
+    width: 390px !important; 
+    border-radius:5px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+}
