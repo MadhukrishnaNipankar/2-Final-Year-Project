@@ -1,22 +1,9 @@
-#Login {
-  height: 80vh;
-  border-radius: 50px;
-  display: flex;
-}
 
-#loginImageHolder {
-  border: 2px solid black;
-  width: 30%;
-  height: 100%;
-}
-
-#innerContainer {
-  height: 100%;
-  width: 100%;
-}
-
-#loginInputSection {
-  border: 2px solid black;
-  width: 70%;
-  height: 100%;
-}
+@media screen and (max-width: 1077px) {
+    #loginImage{
+        display: none;
+    }
+    #Login{
+        width: 500px;
+    }
+  }
