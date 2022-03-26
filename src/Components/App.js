@@ -2,7 +2,8 @@ import Navbar from './Navbar';
 import LoggedInStatusState from '../Context/LoggedInStatus/LoggedInStatusState';
 import '../Styles/App.css';
 import LeftBar from './LeftBar';
-import Login from './Login';
+// import Login from './Login';
+// import Signup from './Signup';
 
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
         <div className="App">
         <Navbar/>
         <LeftBar/>
-        <Login/>
-        
+        {/* <Login/>
+        <Signup/> */}
         </div>
       </LoggedInStatusState>
     </>
