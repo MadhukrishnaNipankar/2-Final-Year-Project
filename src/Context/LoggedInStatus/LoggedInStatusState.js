@@ -3,7 +3,7 @@ import LoggedInStatusContext from "./LoggedInStatusContext";
 
 
 const LoggedInStatusState = (props) => {
-    const [loggedin, setLoggedin] = useState(false);
+    const [loggedin, setLoggedin] = useState(true);
  
     const state= {
         "setLoggedin":setLoggedin,

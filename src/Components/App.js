@@ -2,7 +2,9 @@ import Navbar from './Navbar';
 import LoggedInStatusState from '../Context/LoggedInStatus/LoggedInStatusState';
 import '../Styles/App.css';
 import LeftBar from './LeftBar';
-import Login from './Login';
+import VideoFeed from './VideoFeed';
+import Upload from './Upload';
+// import Login from './Login';
 
 
 function App() {
@@ -13,8 +15,9 @@ function App() {
         <div className="App">
         <Navbar/>
         <LeftBar/>
-        <Login/>
-        
+        {/* <Login/> */}
+        {/* <VideoFeed/> */}
+        <Upload/>
         </div>
       </LoggedInStatusState>
     </>

@@ -9,3 +9,13 @@ background-color: white;
     background-color: rgb(230, 230, 230);
     padding: 10px;
 }
+
+.userProfileOptions{
+    padding: 4px 3px;
+    border-radius:5px;
+}
+
+.userProfileOptions:hover{
+    background-color:  rgb(198, 227, 251);
+    cursor: pointer;
+}
