@@ -21,6 +21,8 @@ function App() {
         {/* <Signup/> */}
         </div>
       </LoggedInStatusState>
+      {/* <ForgetPass/> */}
+      {/* <OTP/> */}
     </>
   );
 }
