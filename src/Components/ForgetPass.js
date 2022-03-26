@@ -4,6 +4,8 @@ export default function ForgetPass() {
   return (
     <>
 
+    {/*may be we have to link this page after the forget password  */}
+
 <div className="container height-100 d-flex justify-content-center align-items-center">
         <div className="position-relative">
           <div className="card p-2 text-center">
