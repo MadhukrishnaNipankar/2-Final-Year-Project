@@ -6,21 +6,16 @@ import Login from './Login';
 import Signup from './Signup';
 import Upload from './Upload';
 import VideoFeed from './VideoFeed';
+import ForgetPass from './ForgetPass';
+import OTP from './OTP';
 
 
 function App() {
   return (
     <>
-      <LoggedInStatusState>
-        <div className="App">
-        <Navbar/>
-        <LeftBar/>
-        {/* <Upload/> */}
-        {/* <VideoFeed/> */}
-        <Login/>
-        {/* <Signup/> */}
-        </div>
-      </LoggedInStatusState>
+     
+      <ForgetPass/>
+      {/* <OTP/> */}
     </>
   );
 }
